@@ -23,6 +23,6 @@ test:
 production:
   <<: *default
   adapter: postgresql
-  database: uppie-downie_production
-  username: uppie-downie
-  password: <%= ENV['UPPIE-DOWNIE_DATABASE_PASSWORD'] %>
+  database: uppie-downie-sr_production
+  username: uppie-downie-sr
+  password: <%= ENV['UPPIE-DOWNIE-SR_DATABASE_PASSWORD'] %>
